@@ -3,8 +3,8 @@
       [x] Exercises (creo que es la misma tarea del class)
       [x] Presentation
 ## []  Python
-      [x] 01
-      [x] 02
+      [] 01
+      [] 02
       [] 03
       [] 04
       [] 05
