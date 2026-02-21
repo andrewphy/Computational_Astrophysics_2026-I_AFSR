@@ -4,7 +4,7 @@
       [x] Presentation
 ## []  Python
       [x] 01
-      [] 02
+      [x] 02
       [] 03
       [] 04
       [] 05
