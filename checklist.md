@@ -1,9 +1,9 @@
 # 00 Intro
 ## [] Github_intro
-      [] Exercises
-      [] Presentation
+      [x] Exercises (creo que es la misma tarea del class)
+      [x] Presentation
 ## []  Python
-      [] 01
+      [x] 01
       [] 02
       [] 03
       [] 04
@@ -13,3 +13,6 @@
 # 01 Fundamental Algorithms
       [] 01
       [] 02
+
+# Nota personales
+ Activar entorno de jupyter: source ~/astro-env/bin/activate
