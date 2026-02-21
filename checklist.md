@@ -10,6 +10,6 @@
       [] 05
       [] 06
       [] Exercises
-# Fundamental Algorithms
+# 01 Fundamental Algorithms
       [] 01
       [] 02
