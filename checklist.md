@@ -15,8 +15,8 @@
 
 # TAREAS
       [x]Exer 01
-      []Exer_py
-      []scipy hands
+      [/]Exer_py
+      [x]scipy hands
       []Exer00
       []Exer 03
       []Exer 04
