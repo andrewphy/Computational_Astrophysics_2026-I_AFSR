@@ -17,7 +17,7 @@
       [x]Exer 01
       [/]Exer_py
       [x]scipy hands
-      []Exer00
+      [x]Exer00
       []Exer 03
       []Exer 04
 # Nota personales
