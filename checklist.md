@@ -20,5 +20,6 @@
       [x]Exer00
       [x]Exer 03
       [x]Exer 04
+      [] integrales
 # Nota personales
  Activar entorno de jupyter: source ~/astro-env/bin/activate
