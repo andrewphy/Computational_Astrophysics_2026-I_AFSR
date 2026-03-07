@@ -1,0 +1,97 @@
+## Origen de los picos en la gráfica del error
+
+Los picos observados en la gráfica del error al calcular derivadas numéricas se deben principalmente a **limitaciones de la aritmética de punto flotante** y a la **competencia entre dos tipos de error numérico**.
+
+### 1. Error de truncamiento
+
+Las fórmulas de derivación numérica se obtienen a partir de expansiones de Taylor truncadas.  
+Esto introduce un error de truncamiento que depende del tamaño del paso \(h\).
+
+Por ejemplo:
+
+- Derivada **forward/backward**
+
+\[
+f'(x) \approx \frac{f(x+h)-f(x)}{h}
+\]
+
+tiene error
+
+\[
+E_T \sim O(h)
+\]
+
+- Derivada **centrada**
+
+\[
+f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}
+\]
+
+tiene error
+
+\[
+E_T \sim O(h^2)
+\]
+
+Por esta razón, cuando \(h\) es grande, el error disminuye al reducir \(h\).
+
+---
+
+### 2. Error de redondeo (punto flotante)
+
+Cuando \(h\) se vuelve muy pequeño ocurre el fenómeno de **cancelación numérica**.  
+La expresión
+
+\[
+f(x+h) - f(x)
+\]
+
+implica restar dos números muy cercanos entre sí. Debido a que los números en un computador se representan con **precisión finita**, esta resta pierde dígitos significativos.
+
+En doble precisión, la precisión de máquina es aproximadamente
+
+\[
+\epsilon \approx 2.2 \times 10^{-16}
+\]
+
+El error de redondeo crece aproximadamente como
+
+\[
+E_R \sim \frac{\epsilon}{h}
+\]
+
+Por lo tanto, cuando \(h\) se hace muy pequeño, el error comienza a aumentar nuevamente.
+
+---
+
+### 3. Aparición de los picos
+
+Los picos observados en la gráfica aparecen porque el error de redondeo **no es completamente suave**.  
+La cancelación numérica depende de cómo se representan los números en formato binario y de cómo se redondean internamente las operaciones en punto flotante.
+
+Esto produce **fluctuaciones discretas en el error**, que se manifiestan como picos cuando se grafican los errores en escala logarítmica.
+
+---
+
+### 4. Balance entre ambos errores
+
+El error total puede modelarse aproximadamente como
+
+\[
+E(h) \approx C_1 h^p + C_2 \frac{\epsilon}{h}
+\]
+
+donde:
+
+- \(p=1\) para forward/backward
+- \(p=2\) para centered
+- \(\epsilon\) es la precisión de máquina
+
+Esto produce la forma característica de las curvas:  
+el error primero disminuye (dominado por truncamiento) y luego aumenta (dominado por redondeo).
+
+---
+
+### 5. Interpretación
+
+Los picos observados en la gráfica son por lo tanto una consecuencia natural de la **aritmética de punto flotante** y de la **cancelación numérica** que ocurre cuando \(h\) se vuelve demasiado pequeño.
