@@ -19,6 +19,6 @@
       [x]scipy hands
       [x]Exer00
       [x]Exer 03
-      []Exer 04
+      [x]Exer 04
 # Nota personales
  Activar entorno de jupyter: source ~/astro-env/bin/activate
