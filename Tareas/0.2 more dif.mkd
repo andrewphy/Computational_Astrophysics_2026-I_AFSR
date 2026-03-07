@@ -11,15 +11,15 @@ Por ejemplo:
 
 - Derivada **forward/backward**
 
-$
+$$
 f'(x) \approx \frac{f(x+h)-f(x)}{h}
-$
+$$
 
 tiene error
 
-$
+$$
 E_T \sim O(h)
-$
+$$
 
 - Derivada **centrada**
 
@@ -29,9 +29,9 @@ $$
 
 tiene error
 
-$
+$$
 E_T \sim O(h^2)
-$
+$$
 
 Por esta razón, el error disminuye al reducir \(h\).
 
@@ -41,24 +41,23 @@ Por esta razón, el error disminuye al reducir \(h\).
 
 Cuando \(h\) se vuelve muy pequeño ocurre el fenómeno de **cancelación numérica**.  
 La expresión
-
-$
+$$
 f(x+h) - f(x)
-$
+$$
 
 implica restar dos números muy cercanos entre sí. Debido a que los números en un computador se representan con **precisión finita**, esta resta pierde dígitos significativos.
 
 En doble precisión, la precisión de máquina es aproximadamente
 
-$
+$$
 \epsilon \approx 2.2 \times 10^{-16}
-$
+$$
 
 El error de redondeo crece aproximadamente como
 
-$
+$$
 E_R \sim \frac{\epsilon}{h}
-$
+$$
 
 Por lo tanto, cuando \(h\) se hace muy pequeño, el error comienza a aumentar nuevamente.
 
@@ -77,9 +76,9 @@ Esto produce **fluctuaciones discretas en el error**, que se manifiestan como pi
 
 El error total puede modelarse aproximadamente como
 
-$
+$$
 E(h) \approx C_1 h^p + C_2 \frac{\epsilon}{h}
-$
+$$
 
 donde:
 
