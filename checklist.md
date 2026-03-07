@@ -15,10 +15,10 @@
 
 # TAREAS
       [x]Exer 01
-      [/]Exer_py
+      [x]Exer_py
       [x]scipy hands
       [x]Exer00
-      []Exer 03
+      [x]Exer 03
       []Exer 04
 # Nota personales
  Activar entorno de jupyter: source ~/astro-env/bin/activate
