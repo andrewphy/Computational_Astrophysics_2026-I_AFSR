@@ -23,9 +23,7 @@ $
 
 - Derivada **centrada**
 
-$
-f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}
-$
+$f'(x) \approx \frac{f(x+h)-f(x-h)}{2h}$
 
 tiene error
 
