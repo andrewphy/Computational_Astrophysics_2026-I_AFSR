@@ -115,7 +115,6 @@ chmod +x setup.sh
 ./setup.sh
 
 ## DISCLAIMER 
-## Disclaimer
 
 Los archivos PDF incluidos en este repositorio corresponden a material académico proporcionado por el docente del curso. La autoría y propiedad intelectual de dichos documentos pertenecen al profesor.
 
