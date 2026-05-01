@@ -24,7 +24,7 @@ El objetivo del proyecto es estudiar la estructura interna de estrellas bajo la 
 
 El siguiente gráfico muestra la comparación entre el modelo solar y el politropo \(n=3\):
 
-![Comparación de densidad](Proyecto_Lane_Emden/Figuras/comparacion_densidad_n3_datosrealesvsmodelo.png)
+![Comparación de densidad](https://github.com/andrewphy/Computational_Astrophysics_2026-I_AFSR/blob/main/Proyecto_Lane_Emden/Figuras/comparacion_densidad_n3_datosrealesvsmodelo.png)
 
 ## Características del código
 
