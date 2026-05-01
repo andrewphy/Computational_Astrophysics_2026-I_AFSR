@@ -11,22 +11,20 @@ $$
 $$
 
 donde:
-- \(\theta\) es la densidad adimensional
-- \(\xi\) es el radio adimensional
-- \(n\) es el índice politrópico
-
-El objetivo es encontrar la solución \(\theta(\xi)\) y el radio de la estrella \(\xi_1\) tal que:
-
-$$
-\theta(\xi_1) = 0
-$$
-
+- $$\theta\$$ es la densidad adimensional
+- $$\xi$$ es el radio adimensional
+- $$n$$ es el índice politrópico
 ---
 ## Objetivo
 
 El objetivo del proyecto es estudiar la estructura interna de estrellas bajo la aproximación politrópica, analizar cómo el índice politrópico \(n\) afecta las soluciones de la ecuación de Lane-Emden y comparar el caso \(n=3\) con el modelo solar estándar (Model S).
 
 ---
+## Ejemplo de salida
+
+El siguiente gráfico muestra la comparación entre el modelo solar y el politropo \(n=3\):
+
+![Comparación de densidad]()
 
 ## Características del código
 
