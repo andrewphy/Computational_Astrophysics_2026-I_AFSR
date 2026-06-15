@@ -1,2 +1,4 @@
 La animacion la hice completamente con ia...
-
+Posiblemente el pdf esta mal 
+tecnicamente ya tengo un python para "replicar" pero no lo entiendo (me pegue un tiro en el pie por ponerle campo magnetico toroidal...)
+estoy en el proceso de entender el python pq el pluto es super facil de entender y hacer el python es otro cuento :c
